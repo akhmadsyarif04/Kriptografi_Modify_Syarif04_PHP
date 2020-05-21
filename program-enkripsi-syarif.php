@@ -10,7 +10,7 @@
 
 <?php
 
-echo '<h1>Modifikasi Kriptografi CAESAR CIPHER BY AKHMAD SYARIF</h1>'.PHP_EOL;
+echo '<h1>Modifikasi Kriptografi BY AKHMAD SYARIF</h1>'.PHP_EOL;
 
 $abjad = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 $abjadReves = ['Z','Y','X','W','V','U','T','S','R'];
@@ -501,7 +501,7 @@ function EnkripsiKillu($plaintextInput, $key1P, $key2P, $abjadP) {
         echo '<br>';
         echo '<br>';
 
-        echo count($resultChipertextLast);
+        // echo count($resultChipertextLast);
 
 
 }
